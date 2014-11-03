@@ -403,7 +403,7 @@ done:
     }
 
     if (!ok) {
-        printf("No OTP secret found for authenticating %s", vpn_username);
+        printf("No OTP secret found for authenticating %s\n", vpn_username);
     }
 
     return ok;
